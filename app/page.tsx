@@ -88,7 +88,7 @@ export default function HomePage() {
             WebkitTextFillColor: "transparent",
           }}
         >
-          Zeo_Mile
+          ZeroMile
         </h1>
         <p style={{ fontSize: "1.5rem", color: "#94a3b8" }}>
           Driving Towards <span style={{ color: "#38bdf8" }}>Sustainable Logistics</span>.

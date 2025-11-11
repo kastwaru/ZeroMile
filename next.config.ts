@@ -1,11 +1,12 @@
+// next.config.ts
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  // The only reason we need this config is to force Webpack
-  // to avoid the Turbopack crash.
+  // Add a simple, empty function to resolve the conflict
   webpack: (config, options) => {
     return config;
   },
+  // You can also delete the 'experimental' block if it was still there
 };
 
 export default nextConfig;

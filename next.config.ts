@@ -1,12 +1,8 @@
-// next.config.ts
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  // Add a simple, empty function to resolve the conflict
-  webpack: (config, options) => {
-    return config;
-  },
-  // You can also delete the 'experimental' block if it was still there
+  // This config is now empty to avoid any conflicts with Turbopack.
+  // We will use the command line to force Webpack.
 };
 
 export default nextConfig;

@@ -38,7 +38,7 @@ export default function ShipperLoginPage() {
               alt="Logo"
               style={styles.logo}
             />
-            <h1 style={styles.title}>ZeoMile Shipper Portal</h1>
+            <h1 style={styles.title}>ZeroMile Shipper Portal</h1>
             <p style={styles.subtitle}>Login or create an account to manage your loads</p>
           </div>
 
